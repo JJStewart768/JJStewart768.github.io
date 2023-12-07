@@ -5,9 +5,17 @@ header {
 }
 
 footer {
-    width;100%
+    width: 100%;
     padding-bottom: 47px;
     align-items: center;
+}
+
+
+
+
+/* TEXT */
+#fadeIn {
+    opacity: 0;
 }
 
 body {
@@ -16,10 +24,13 @@ body {
     font-family:EB Garamond;
     font-weight: bold;
     text-decoration: none;
-    background-image: url("images/BACKGROUND.png");
+    background: url("./images/INTRO.mp4") no-repeat;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+body: {
 }
 
 h1 {
@@ -69,7 +80,51 @@ h2 {
 }
 
 
+
+
 /* IMAGE WORK */
+video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.intro {
+    animation: fadeOut 1s;
+    -webkit-animation: fadeOut 1s;
+    -moz-animation: fadeOut 1s;
+    -o-animation: fadeOut 1s;
+    -mis-animation: fadeOut 1s;
+}
+
+@keyframes fadeOut {
+    100% { opacity: 1; }
+    0 % { opacity: 0; }
+}
+
+@-moz-keyframes fadeOut {
+    100% { opacity: 1; }
+    0 % { opacity: 0; }
+}
+
+@-webkit-keyframes fadeOut {
+    100% { opacity: 1; }
+    0 % { opacity: 0; }
+}
+
+@-o-keyframes fadeOut {
+    100% { opacity: 1; }
+    0 % { opacity: 0; }
+}
+@-ms-keyframes fadeOut {
+    100% { opacity: 1; }
+    0 % { opacity: 0; }
+}
 
 a {
     color:#C6D8FF;
@@ -92,12 +147,10 @@ img.belluminati {
 }
 
 .dollarbill {
-    z-index: 0;
 }
 
 .fooditems {
     position: absolute;
-    z-index: 1;
 }
 
 #breakfast {
@@ -188,6 +241,6 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%
+    width: 100%;
     background-image: url("images/BACKGROUND.png");
 }

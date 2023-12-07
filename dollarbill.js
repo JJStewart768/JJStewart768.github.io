@@ -1,5 +1,5 @@
 document.write(
-    "<div class='container'>" +
+    "<div id='fadeIn' class='container'>" +
         "<div><img class='dollarbill' src='./images/DOLLARBILL.png' /></div>" +
         "<div class='fooditems'><a href=''><img id='breakfast' src='./images/BREAKFAST.png' /></a></div>" +
         "<div class='fooditems'><a href=''><img id='burrito' src='./images/BURRITO.png' /></a></div>" +

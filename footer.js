@@ -1,4 +1,4 @@
-document.write("<footer><div class='nav'>" +
+document.write("<footer><div id='fadeIn' class='nav'>" +
         "<div id='socials'>" +
             "<a href='https://www.tiktok.com/@tacobell' target='_blank'><img class='sociallink' src='./images/TIKTOK.png' /></a>" +
             "<a href='https://www.instagram.com/tacobell/'><img class='sociallink' src='./images/INSTAGRAM.png' /></a>" +

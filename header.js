@@ -1,4 +1,4 @@
-document.write("<header><div class='nav'>" +
+document.write("<header><div id='fadeIn' class='nav'>" +
         "<div class='belluminati'>" +
             "<a href='https://www.tacobell.com/food/cravings-value-menu?store=032083'><img class='belluminati' src='./images/BELLUMINATI.png' /></a>" +
         "</div>" +
