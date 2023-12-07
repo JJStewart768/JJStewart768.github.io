@@ -1,14 +1,7 @@
 body {
     text-align:center;
     margin:auto;
-    background-color:#C6D8FF;
-    font-family:Poiret One;
-}
-
-header {
-    color:#C6D8FF;
-    background-color:#4C1036;
-    height:50px;
+    font-family:EB Garamond;
 }
 
 h1 {
@@ -16,6 +9,10 @@ h1 {
     color:#4C1036;
     padding-left:20px;
     padding-right:20px;
+}
+
+h1.powerdollar {
+    font-size:52.6px;
 }
 
 h2 {
@@ -47,8 +44,8 @@ a {
 }
 
 img.planetlink {
-    width:300px;
-    height:300px;
+    width:100px;
+    height:100px;
     padding:20px;
 }
 
@@ -61,16 +58,14 @@ img.ppr {
 }
 
 .nav {
-    line-height:45px;
+    line-height:50px;
+    width:20%;
+    height:50px;
+    max-width:100px;
 }
 
 table {
 	width:100%;
-}
-
-table.planetnav {
-	width:80%;
-    max-width:600px;
 }
 
 @media screen and (max-width: 1050px) {
