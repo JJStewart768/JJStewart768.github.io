@@ -2,40 +2,35 @@ body {
     text-align:center;
     margin:auto;
     font-family:EB Garamond;
+    font-weight: bold;
+    background-image: url("images/BACKGROUND.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
-    font-size:40px;
-    color:#4C1036;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
 }
 
 h1.powerdollar {
-    font-size:52.6px;
+    text-shadow:
+       0 0 7px #742850,
+       0 0 10px #742850,
+       0 0 21px #742850,
+       0 0 42px #742850;
+    font-size: 30px;
 }
 
-h2 {
-    color:#72195A;
-    padding-left:20px;
-    padding-right:20px;
-}
-
-p {
-    color:#6B5CA5;
-    margin-top:10px;
-    margin-bottom:10px;
-    font-size:30px;
-}
-
-p.caption {
-    font-size:17px;
-    color:black;
-    max-width:500px;
-    margin:auto;
-    padding-left:40px;
-    padding-right:40px;
-    padding-bottom:40px;
+h1.clueseverywhere {
+    text-shadow:
+       0 0 7px #05F9F9,
+       0 0 10px #05F9F9,
+       0 0 21px #05F9F9,
+       0 0 42px #05F9F9;
+    font-size: 30px;
 }
 
 a {
@@ -43,9 +38,9 @@ a {
     padding:20px;
 }
 
-img.planetlink {
-    width:100px;
-    height:100px;
+img.sociallink {
+    width:36px;
+    height:36px;
     padding:20px;
 }
 
@@ -58,6 +53,7 @@ img.ppr {
 }
 
 .nav {
+    justify-content: right;
     line-height:50px;
     width:20%;
     height:50px;
@@ -68,18 +64,36 @@ table {
 	width:100%;
 }
 
-@media screen and (max-width: 1050px) {
-    img.planetlink {
-        padding:1%;
+/* dollar bill image control */
+@media screen {
+    img.dollarbill {
+        max-width:600px;
+        width:45%;
+        padding:5px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    img.dollarbill {
+        max-width:760px;
+        width:90%;
+        padding:4px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
     }
 }
 
-@media screen and (max-width: 930px) {
-    img.planetlink {
-        max-width:600px;
-        width:45%;
-        height:45%;
-        padding:5px;
+@media screen and (max-width: 390px) {
+    img.dollarbill {
+        max-width:380px;
+        width:90%;
+        padding:4px;
         margin-left:auto;
         margin-right:auto;
         display:block;
@@ -98,4 +112,12 @@ table {
         font-size:2.2vw;
         padding:2.7vw;
     }
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
+    background-image: url("images/BACKGROUND.png");
 }
