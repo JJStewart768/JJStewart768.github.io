@@ -1,0 +1,106 @@
+body {
+    text-align:center;
+    margin:auto;
+    background-color:#C6D8FF;
+    font-family:Poiret One;
+}
+
+header {
+    color:#C6D8FF;
+    background-color:#4C1036;
+    height:50px;
+}
+
+h1 {
+    font-size:40px;
+    color:#4C1036;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+h2 {
+    color:#72195A;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+p {
+    color:#6B5CA5;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:30px;
+}
+
+p.caption {
+    font-size:17px;
+    color:black;
+    max-width:500px;
+    margin:auto;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom:40px;
+}
+
+a {
+    color:#C6D8FF;
+    padding:20px;
+}
+
+img.planetlink {
+    width:300px;
+    height:300px;
+    padding:20px;
+}
+
+img.ppr {
+    max-width:400px;
+    width:45%;
+    max-height:400px;
+    height:45%;
+    padding:20px;
+}
+
+.nav {
+    line-height:45px;
+}
+
+table {
+	width:100%;
+}
+
+table.planetnav {
+	width:80%;
+    max-width:600px;
+}
+
+@media screen and (max-width: 1050px) {
+    img.planetlink {
+        padding:1%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    img.planetlink {
+        max-width:600px;
+        width:45%;
+        height:45%;
+        padding:5px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .header {
+        overflow:hidden;
+        padding-left:10px;
+        padding-right:10px;
+        display:block;
+    }
+
+	a {
+        font-size:2.2vw;
+        padding:2.7vw;
+    }
+}
