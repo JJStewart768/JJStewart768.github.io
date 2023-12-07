@@ -1,4 +1,7 @@
-document.write("<footer><div class='nav'>" +
+document.write("<header><div class='nav'>" +
+        "<div class='belluminati'>" +
+            "<a href='https://www.tacobell.com/food/cravings-value-menu?store=032083'><img class='belluminati' src='./images/BELLUMINATI.png' /></a>" +
+        "</div>" +
         "<div id='socials'>" +
             "<a href='https://www.tiktok.com/@tacobell' target='_blank'><img class='sociallink' src='./images/TIKTOK.png' /></a>" +
             "<a href='https://www.instagram.com/tacobell/'><img class='sociallink' src='./images/INSTAGRAM.png' /></a>" +
@@ -7,5 +10,5 @@ document.write("<footer><div class='nav'>" +
         "<div id='copyright'>" +
             "<h2>&copy; 2023 Taco Bell Co.<h2>" +
         "</div>" +
-    "</footer>"
+    "</header>"
 );

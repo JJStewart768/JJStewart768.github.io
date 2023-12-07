@@ -1,8 +1,21 @@
+header {
+    width:100%;
+    padding-bottom: 47px;
+    align-items: center;
+}
+
+footer {
+    width;100%
+    padding-bottom: 47px;
+    align-items: center;
+}
+
 body {
     text-align:center;
     margin:auto;
     font-family:EB Garamond;
     font-weight: bold;
+    text-decoration: none;
     background-image: url("images/BACKGROUND.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +28,11 @@ h1 {
     color: #fff;
 }
 
-h1.powerdollar {
+div.belluminati {
+    text-align: center;
+}
+
+#powerdollar {
     text-shadow:
        0 0 7px #742850,
        0 0 10px #742850,
@@ -24,32 +41,99 @@ h1.powerdollar {
     font-size: 30px;
 }
 
-h1.clueseverywhere {
+#clueseverywhere {
+    text-shadow:
+       0 0 7px #D3CEA4,
+       0 0 10px #D3CEA4,
+       0 0 21px #D3CEA4,
+       0 0 42px #D3CEA4;
+    font-size: 30px;
+}
+
+h2 {
+    color: #fff;
+}
+
+#unlocktruth {
+    font-size: 40px;
+    transition: transform .2s;
     text-shadow:
        0 0 7px #05F9F9,
        0 0 10px #05F9F9,
        0 0 21px #05F9F9,
        0 0 42px #05F9F9;
-    font-size: 30px;
 }
+
+#unlocktruth:hover {
+    transform: scale(1.25);
+}
+
+
+/* IMAGE WORK */
 
 a {
     color:#C6D8FF;
     padding:20px;
+    text-decoration: none;
 }
 
 img.sociallink {
     width:36px;
-    height:36px;
+}
+
+img.belluminati {
+    width:70px;
+    height:70px;
     padding:20px;
 }
 
-img.ppr {
-    max-width:400px;
-    width:45%;
-    max-height:400px;
-    height:45%;
-    padding:20px;
+.container {
+    position: relative;
+}
+
+.dollarbill {
+    z-index: 0;
+}
+
+.fooditems {
+    position: absolute;
+    z-index: 1;
+}
+
+#breakfast {
+    width: 36px;
+}
+
+#burrito {
+    width: 36px;
+}
+
+#cinnabon1 {
+    width: 36px;
+}
+
+#cinnabon2 {
+    width: 36px;
+}
+
+#cinnabon3 {
+    width: 36px;
+}
+
+#cinnabon4 {
+    width: 36px;
+}
+
+#potatotaco {
+    width: 36px;
+}
+
+#stacker {
+    width: 36px;
+}
+
+#tostada {
+    width: 36px;
 }
 
 .nav {
@@ -75,7 +159,7 @@ table {
         display:block;
     }
 
-    
+
 }
 
 @media screen and (max-width: 768px) {
@@ -97,20 +181,6 @@ table {
         margin-left:auto;
         margin-right:auto;
         display:block;
-    }
-}
-
-@media screen and (max-width: 730px) {
-    .header {
-        overflow:hidden;
-        padding-left:10px;
-        padding-right:10px;
-        display:block;
-    }
-
-	a {
-        font-size:2.2vw;
-        padding:2.7vw;
     }
 }
 
