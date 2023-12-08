@@ -173,15 +173,15 @@ a {
         padding:5px;
     }
 
-    #breakfast { width: 50px; padding-left: 39.5%; padding-top: 5%; }
-    #burrito { width: 36px; padding-left: 10.8%; padding-top: 9%; }
-    #cinnabon1 { width: 18px; padding-left: 7.5%; padding-top: 2.5%; }
-    #cinnabon2 { width: 14px; padding-left: 22.3%; padding-top: 2.5%; }
-    #cinnabon3 { width: 18px; padding-left: 36.7%; padding-top: 3%; }
-    #cinnabon4 { width: 14px; padding-left: 27.4%; padding-top: 2.8%; }
-    #potatotaco { width: 40px; padding-left: 2.2%; padding-top: 16%; }
-    #stacker { width: 50px; padding-left: 1.8%; padding-top: 5%; }
-    #tostada { width: 50px; padding-left: 38.5%; padding-top: 16%; }
+    #breakfast { width: 50px; padding-left: 39.5%; padding-top: 5%; z-index: 7; }
+    #burrito { width: 36px; padding-left: 10.8%; padding-top: 9%; z-index: 9; }
+    #cinnabon1 { width: 18px; padding-left: 7.5%; padding-top: 2.5%; z-index: 11; }
+    #cinnabon2 { width: 14px; padding-left: 22.3%; padding-top: 2.5%; z-index: 11; }
+    #cinnabon3 { width: 18px; padding-left: 36.7%; padding-top: 3%; z-index: 11; }
+    #cinnabon4 { width: 14px; padding-left: 27.4%; padding-top: 2.8%; z-index: 11; }
+    #potatotaco { width: 40px; padding-left: 2.2%; padding-top: 16%; z-index: 7; }
+    #stacker { width: 50px; padding-left: 1.8%; padding-top: 5%; z-index: 15; }
+    #tostada { width: 50px; padding-left: 38.5%; padding-top: 16%; z-index: 5; }
 
     div.content { top: 120px; }
 
@@ -196,15 +196,15 @@ a {
         padding:5px;
     }
 
-    #breakfast { width: 36px; padding-left: 39.5%; padding-top: 5%; }
-    #burrito { width: 30px; padding-left: 11%; }
-    #cinnabon1 { width: 16px; padding-left: 7.5%; padding-top: 2.5%; }
-    #cinnabon2 { width: 11px; padding-left: 22.5%; padding-top: 2.5%; }
-    #cinnabon3 { width: 16px; padding-left: 36.7%; padding-top: 3%; }
-    #cinnabon4 { width: 11px; padding-left: 27.4%; padding-top: 2.8%; }
-    #potatotaco { width: 32px; padding-left: 2.2%; padding-top: 16%; }
-    #stacker { width: 45px; padding-left: 1%; padding-top: 5%; }
-    #tostada { width: 36px; padding-left: 39%; padding-top: 16%; }
+    #breakfast { width: 36px; padding-left: 39.5%; padding-top: 5%; z-index: 7;}
+    #burrito { width: 30px; padding-left: 11%; z-index: 9; }
+    #cinnabon1 { width: 16px; padding-left: 7.5%; padding-top: 2.5%; z-index: 11; }
+    #cinnabon2 { width: 11px; padding-left: 22.5%; padding-top: 2.5%; z-index: 11; }
+    #cinnabon3 { width: 16px; padding-left: 36.7%; padding-top: 3%; z-index: 11; }
+    #cinnabon4 { width: 11px; padding-left: 27.4%; padding-top: 2.8%; z-index: 11; }
+    #potatotaco { width: 32px; padding-left: 2.2%; padding-top: 16%; z-index: 7; }
+    #stacker { width: 45px; padding-left: 1%; padding-top: 5%; z-index: 15;}
+    #tostada { width: 36px; padding-left: 39%; padding-top: 16%; z-index: 5;}
 }
 
 @media screen and (max-device-width: 769px) {
@@ -244,15 +244,15 @@ a {
     #socialstop { opacity: 0; }
     #socialsbottom { opacity: 1; }
 
-    #breakfast { width: 60px; padding-left: 68%; padding-top: 8%; }
-    #burrito { width: 52px; padding-left: 18.4%; padding-top: 15%; }
-    #cinnabon1 { width: 25px; padding-left: 12.5%; padding-top: 4.2%; }
-    #cinnabon2 { width: 22px; padding-left: 37.8%; padding-top: 4%; }
-    #cinnabon3 { width: 25px; padding-left: 62.3%; padding-top: 5%; }
-    #cinnabon4 { width: 22px; padding-left: 46.4%; padding-top: 4.3%; }
-    #potatotaco { width: 60px; padding-left: 3%; padding-top: 8%; }
-    #stacker { width: 58px; padding-left: 3.6%; padding-top: 29%; }
-    #tostada { width: 65px; padding-left: 66%; padding-top: 26%; }
+    #breakfast { width: 60px; padding-left: 68%; padding-top: 8%; z-index: 7;}
+    #burrito { width: 52px; padding-left: 18.4%; padding-top: 15%; z-index: 9; }
+    #cinnabon1 { width: 25px; padding-left: 12.5%; padding-top: 4.2%; z-index: 11; }
+    #cinnabon2 { width: 22px; padding-left: 37.8%; padding-top: 4%; z-index: 11; }
+    #cinnabon3 { width: 25px; padding-left: 62.3%; padding-top: 5%; z-index: 11; }
+    #cinnabon4 { width: 22px; padding-left: 46.4%; padding-top: 4.3%; z-index: 11; }
+    #potatotaco { width: 50px; padding-left: 3.6%; padding-top: 29%; z-index: 7; }
+    #stacker { width: 70px; padding-left: 3%; padding-top: 8%; z-index: 15;}
+    #tostada { width: 65px; padding-left: 66%; padding-top: 26%; z-index: 5;}
 }
 
 @media screen and (max-device-width: 391px) {
@@ -279,15 +279,15 @@ a {
         clear:none;
     }
 
-    #breakfast { width: 75px; padding-left: 73.5%; padding-top: 8%; }
-    #burrito { width: 55px; padding-left: 20%; padding-top: 16%; }
-    #cinnabon1 { width: 25px; padding-left: 13.8%; padding-top: 4.2%; }
-    #cinnabon2 { width: 22px; padding-left: 41.4%; padding-top: 4.2%; }
-    #cinnabon3 { width: 25px; padding-left: 68%; padding-top: 5.4%; }
-    #cinnabon4 { width: 22px; padding-left: 50.7%; padding-top: 4.6%; }
-    #potatotaco { width: 65px; padding-left: 3%; padding-top: 8%; }
-    #stacker { width: 65px; padding-left: 3.9%; padding-top: 29.5%; }
-    #tostada { width: 72px; padding-left: 72%; padding-top: 28.5%; }
+    #breakfast { width: 75px; padding-left: 73.5%; padding-top: 8%; z-index: 7;}
+    #burrito { width: 55px; padding-left: 20%; padding-top: 16%; z-index: 9; }
+    #cinnabon1 { width: 25px; padding-left: 13.8%; padding-top: 4.2%; z-index: 11; }
+    #cinnabon2 { width: 22px; padding-left: 41.4%; padding-top: 4.2%; z-index: 11; }
+    #cinnabon3 { width: 25px; padding-left: 68%; padding-top: 5.4%; z-index: 11; }
+    #cinnabon4 { width: 22px; padding-left: 50.7%; padding-top: 4.6%; z-index: 11; }
+    #potatotaco { width: 65px; padding-left: 3.9%; padding-top: 29.5%; z-index: 7; }
+    #stacker { width: 65px; padding-left: 3%; padding-top: 8%; z-index: 15; }
+    #tostada { width: 72px; padding-left: 72%; padding-top: 28.5%; z-index: 5; }
 
     #socialstop { opacity: 0; }
     #socialsbottom { opacity: 1; }
