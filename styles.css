@@ -7,6 +7,22 @@ html, body {
     justify-content: center;
 }
 
+video {
+    display: block;
+    transform: translate(-10%, 0px);
+    margin: 0 auto;
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 header {
     width: 100%;
     position: fixed;
@@ -23,25 +39,28 @@ footer {
     right: 0;
 }
 
-.content {
-    margin: 0;
+div.content {
+    position: fixed;
+    left: 0;
+    top: 120px;
+    right: 0;
+    bottom: 0;
+}
+
+.CTA {
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 
 
 /* TEXT */
-#fadeIn {
-    opacity: 1;
-}
-
 body {
     text-align: center;
     font-family:EB Garamond;
     font-weight: bold;
     text-decoration: none;
-    background: url("./images/INTRO.mp4") no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 h1 {
@@ -71,6 +90,11 @@ h1 {
 h2 {
     color: #fff;
     font-size: 10px;
+    padding: 5px;
+}
+
+#copyright {
+    padding: 20px;
 }
 
 #unlocktruth {
@@ -91,56 +115,14 @@ h2 {
 
 
 /* IMAGE WORK */
-video {
-    display: block;
-    margin: 0 auto;
-    position: fixed;
-    min-height: 100%;
-    min-width: 100%;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    overflow-x: hidden;
-}
-
-/*
-.intro {
-    animation: fadeOut 1s;
-    -webkit-animation: fadeOut 1s;
-    -moz-animation: fadeOut 1s;
-    -o-animation: fadeOut 1s;
-    -mis-animation: fadeOut 1s;
-}
-
-@keyframes fadeOut {
-    100% { opacity: 1; }
-    0 % { opacity: 0; }
-}
-
-@-moz-keyframes fadeOut {
-    100% { opacity: 1; }
-    0 % { opacity: 0; }
-}
-
-@-webkit-keyframes fadeOut {
-    100% { opacity: 1; }
-    0 % { opacity: 0; }
-}
-
-@-o-keyframes fadeOut {
-    100% { opacity: 1; }
-    0 % { opacity: 0; }
-}
-@-ms-keyframes fadeOut {
-    100% { opacity: 1; }
-    0 % { opacity: 0; }
-}
-*/
-
 a {
     color:#C6D8FF;
-    padding:20px;
     text-decoration: none;
+}
+
+.nav {
+    height:50px;
+    clear: none;
 }
 
 .socialinks {
@@ -148,19 +130,20 @@ a {
 }
 
 #socialstop {
-    text-align: right;
-    padding:20px;
+    padding: 22px;
+    float: right;
 }
 
 #socialsbottom {
     text-align: center;
 }
 
-img.sociallink { width:36px; }
-
-.belluminati {
-    text-align: left;
+img.sociallink {
+    width:36px;
+    padding: 20px;
 }
+
+.belluminati { float: left; }
 
 img.belluminati {
     width:70px;
@@ -168,24 +151,30 @@ img.belluminati {
     padding:20px;
 }
 
-.container { position: relative; }
-
-.fooditems { position: absolute; }
-
-#breakfast { width: 36px; }
-#burrito { width: 36px; }
-#cinnabon1 { width: 36px; }
-#cinnabon2 { width: 36px; }
-#cinnabon3 { width: 36px; }
-#cinnabon4 { width: 36px; }
-#potatotaco { width: 36px; }
-#stacker { width: 36px; }
-#tostada { width: 36px; }
-
-.nav div {
-    float: left;
-    clear: none;
+.container {
+    position: relative;
 }
+
+.dollarbill {
+    z-index: 3;
+    top: 0;
+}
+
+.fooditems {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+}
+
+#breakfast { width: 36px; padding-left: 300px; }
+#burrito { width: 36px; padding-left: 300px; }
+#cinnabon1 { width: 36px; padding-left: 300px; }
+#cinnabon2 { width: 36px; padding-right: 300px; }
+#cinnabon3 { width: 36px; padding-right: 300px; }
+#cinnabon4 { width: 36px; padding-right: 300px; }
+#potatotaco { width: 36px; padding-right: 300px; }
+#stacker { width: 36px; padding-right: 300px; }
+#tostada { width: 36px; padding-right: 300px; }
 
 /* dollar bill image control */
 @media screen {

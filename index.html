@@ -5,19 +5,38 @@
     <title>Taco Bell Project</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond">
+    <style>
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            87% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        div.content {
+            animation: 0s ease-out 0s 1 fadeIn;
+        }
+
+        div.nav {
+            animation: 0s ease-out 0s 1 fadeIn;
+        }
+    </style>
 <body>
     <script language="javascript" src="header.js"></script>
     <video class="intro" autoplay muted>
         <source src="./images/INTRO.mp4" type="video/mp4">
     </video>
     <div class="content">
-        <h1 id="powerdollar fadeIn">What is the power of the dollar?</h1>
-        <script language="javascript" src="dollarbill.js"></script>
-        <h1 id="clueseverywhere fadeIn">The clues are everywhere, if you know
-            where to look...</h1>
-        <a href="https://www.tacobell.com/food/cravings-value-menu?store=032083">
-            <h1 id="unlocktruth fadeIn">Unlock the truth</h1>
-        </a>
+        <div class= "marketcopy">
+            <h1 id="powerdollar">What is the power of the dollar?</h1>
+            <script language="javascript" src="dollarbill.js"></script>
+            <h1 id="clueseverywhere">The clues are everywhere, if you know
+                where to look...</h1>
+        </div>
+        <div class="CTA">
+            <a href="https://www.tacobell.com/food/cravings-value-menu?store=032083">
+                <h1 id="unlocktruth">Unlock the truth</h1>
+            </a>
+        </div>
     </div>
     <script language="javascript" src="footer.js"></script>
 </body>
