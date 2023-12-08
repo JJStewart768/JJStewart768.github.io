@@ -1,7 +1,6 @@
 html, body {
     width: 100%;
     height: 100%;
-    margin: 0;
     padding: 0;
     overflow-x: hidden;
     display: block;
@@ -9,22 +8,24 @@ html, body {
 }
 
 header {
-    justify-content: right;
-    align-items: right;
+    width: 100%;
     position: fixed;
-    top: 0;
-    justify-content: space-around;
-    align-items: right;
     padding-bottom: 47px;
+    line-height: 50px;
 }
 
 footer {
+    width: 100%;
     padding-bottom: 47px;
     position: fixed;
     left: 0;
     bottom: 0;
+    right: 0;
 }
 
+.content {
+    margin: 0;
+}
 
 
 
@@ -49,10 +50,6 @@ h1 {
     color: #fff;
 }
 
-div.belluminati {
-    text-align: center;
-}
-
 #powerdollar {
     text-shadow:
        0 0 7px #742850,
@@ -73,6 +70,7 @@ div.belluminati {
 
 h2 {
     color: #fff;
+    font-size: 10px;
 }
 
 #unlocktruth {
@@ -97,7 +95,8 @@ video {
     display: block;
     margin: 0 auto;
     position: fixed;
-    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
     z-index: -1;
     left: 0;
     right: 0;
@@ -144,8 +143,23 @@ a {
     text-decoration: none;
 }
 
-img.sociallink {
-    width:36px;
+.socialinks {
+    text-align: right;
+}
+
+#socialstop {
+    text-align: right;
+    padding:20px;
+}
+
+#socialsbottom {
+    text-align: center;
+}
+
+img.sociallink { width:36px; }
+
+.belluminati {
+    text-align: left;
 }
 
 img.belluminati {
@@ -154,63 +168,23 @@ img.belluminati {
     padding:20px;
 }
 
-.container {
-    position: relative;
-}
+.container { position: relative; }
 
-.dollarbill {
-}
+.fooditems { position: absolute; }
 
-.fooditems {
-    position: absolute;
-}
+#breakfast { width: 36px; }
+#burrito { width: 36px; }
+#cinnabon1 { width: 36px; }
+#cinnabon2 { width: 36px; }
+#cinnabon3 { width: 36px; }
+#cinnabon4 { width: 36px; }
+#potatotaco { width: 36px; }
+#stacker { width: 36px; }
+#tostada { width: 36px; }
 
-#breakfast {
-    width: 36px;
-}
-
-#burrito {
-    width: 36px;
-}
-
-#cinnabon1 {
-    width: 36px;
-}
-
-#cinnabon2 {
-    width: 36px;
-}
-
-#cinnabon3 {
-    width: 36px;
-}
-
-#cinnabon4 {
-    width: 36px;
-}
-
-#potatotaco {
-    width: 36px;
-}
-
-#stacker {
-    width: 36px;
-}
-
-#tostada {
-    width: 36px;
-}
-
-.nav {
-    justify-content: right;
-    line-height:50px;
-    width:20%;
-    height:50px;
-    max-width:100px;
-}
-
-table {
-	width:100%;
+.nav div {
+    float: left;
+    clear: none;
 }
 
 /* dollar bill image control */
@@ -221,7 +195,8 @@ table {
         padding:5px;
     }
 
-
+    #socialstop { opacity: 1; }
+    #socialsbottom { opacity: 0; }
 }
 
 @media screen and (max-width: 768px) {
@@ -230,6 +205,9 @@ table {
         width:90%;
         padding:4px;
     }
+
+    #socialstop { opacity: 0; }
+    #socialsbottom { opacity: 1; }
 }
 
 @media screen and (max-width: 390px) {
@@ -238,4 +216,7 @@ table {
         width:90%;
         padding:4px;
     }
+
+    #socialstop { opacity: 0; }
+    #socialsbottom { opacity: 1; }
 }
