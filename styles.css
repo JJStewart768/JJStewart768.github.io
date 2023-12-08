@@ -42,7 +42,6 @@ footer {
 div.content {
     position: fixed;
     left: 0;
-    top: 120px;
     right: 0;
     bottom: 0;
 }
@@ -166,26 +165,35 @@ img.belluminati {
     top: 0;
 }
 
-#breakfast { width: 36px; padding-left: 300px; }
-#burrito { width: 36px; padding-left: 300px; }
-#cinnabon1 { width: 36px; padding-left: 300px; }
-#cinnabon2 { width: 36px; padding-right: 300px; }
-#cinnabon3 { width: 36px; padding-right: 300px; }
-#cinnabon4 { width: 36px; padding-right: 300px; }
-#potatotaco { width: 36px; padding-right: 300px; }
-#stacker { width: 36px; padding-right: 300px; }
-#tostada { width: 36px; padding-right: 300px; }
+#breakfast { width: 36px; padding-left: 39.5%; padding-top: 5%; }
+#burrito { width: 36px; padding-left: 10.8%; padding-top: 9%; }
+#cinnabon1 { width: 18px; padding-left: 7.5%; padding-top: 2.5%; }
+#cinnabon2 { width: 13px; padding-left: 22.5%; padding-top: 2.5%; }
+#cinnabon3 { width: 18px; padding-left: 36.7%; padding-top: 3%; }
+#cinnabon4 { width: 13px; padding-left: 27.4%; padding-top: 2.8%; }
+#potatotaco { width: 40px; padding-left: 2.2%; padding-top: 16%; }
+#stacker { width: 50px; padding-left: 1.8%; padding-top: 5%; }
+#tostada { width: 50px; padding-left: 38.5%; padding-top: 16%; }
 
 /* dollar bill image control */
 @media screen {
     img.dollarbill {
-        max-width:600px;
+        max-height:25%;
         width:45%;
         padding:5px;
     }
 
+    div.content { top: 120px; }
+
     #socialstop { opacity: 1; }
     #socialsbottom { opacity: 0; }
+}
+
+@media screen and (max-width: 1070px) {
+    #burrito { width: 30px; padding-left: 11%; }
+    #potatotaco { width: 32px; padding-left: 2.2%; padding-top: 16%; }
+    #stacker { width: 45px; padding-left: 1%; padding-top: 5%; }
+    #tostada { width: 36px; padding-left: 39%; padding-top: 16%; }
 }
 
 @media screen and (max-width: 768px) {
@@ -195,8 +203,20 @@ img.belluminati {
         padding:4px;
     }
 
+    div.content { top: 95px; }
+
     #socialstop { opacity: 0; }
     #socialsbottom { opacity: 1; }
+
+    #breakfast { width: 45px; padding-left: 80%; padding-top: 10%; }
+    #burrito { padding-left: 22%; padding-top: 19%; }
+    #cinnabon1 { width: 18px; padding-left: 14.7%; padding-top: 5%; }
+    #cinnabon2 { width: 13px; padding-left: 44.5%; padding-top: 5%; }
+    #cinnabon3 { width: 18px; padding-left: 73%; padding-top: 6%; }
+    #cinnabon4 { width: 13px; padding-left: 54.7%; padding-top: 5.5%; }
+    #potatotaco { width: 44px; padding-left: 3%; padding-top: 9.8%; }
+    #stacker { width: 48px; padding-left: 4%; padding-top: 33%; }
+    #tostada { width: 50px; padding-left: 77%; padding-top: 33%; }
 }
 
 @media screen and (max-width: 390px) {
