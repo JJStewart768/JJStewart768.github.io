@@ -9,6 +9,6 @@ document.write(
         "<img class='fooditems' href='' id='potatotaco' src='./images/POTATOTACO.png' />" +
         "<img class='fooditems' href='' id='stacker' src='./images/STACKER.png' />" +
         "<img class='fooditems' href='' id='tostada' src='./images/TOSTADA.png' />" +
-        "<img class='dollarbill' src='./images/DOLLARBILL.png'>" +
+        "<img class='dollarbill' src='./images/DOLLARBILL.png' />" +
     "</div>"
 );
