@@ -21,8 +21,8 @@ document.write(
         "<a href='https://www.tacobell.com/food/tacos/spicy-potato-soft-taco'>" +
             "<img class='fooditems' id='potatotaco' src='./images/POTATOTACO.png' />" +
         "</a>" +
-        "<a href='https://www.tacobell.com/food/cravings-value-menu'>" +
-            "<img class='fooditems' id='stacker' src='./images/STACKER.png' />" +
+        "<a href='https://www.tacobell.com/food/nachos/triple-layer-nachos'>" +
+            "<img class='fooditems' id='stacker' src='./images/NACHOS.png' />" +
         "</a>" +
         "<a href='https://www.tacobell.com/food/cravings-value-menu'>" +
             "<img class='fooditems' id='tostada' src='./images/TOSTADA.png' />" +
